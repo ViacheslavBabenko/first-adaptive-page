@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first adaptive page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./dist/css/style.min.css" />
+  </head>
+
+  <body class="body-page">
+    <header class="header-page">
+      <div class="container">
+        <nav class="header-page__navbar">
+          <div class="burger-icon">
+            <span class="burger-icon__line"></span>
+            <span class="burger-icon__line"></span>
+            <span class="burger-icon__line"></span>
+          </div>
+
+          <ul class="header-page__menu">
+            <li class="header-page__list">
+              <a href="#" class="header-page__link header-page__link--active">Home</a>
+            </li>
+            <li class="header-page__list">
+              <a href="#" class="header-page__link">About Us</a>
+            </li>
+            <li class="header-page__list">
+              <a href="#" class="header-page__link">Our Journal</a>
+            </li>
+            <li class="header-page__list">
+              <a href="#" class="header-page__link">Projects</a>
+            </li>
+            <li class="header-page__list">
+              <a href="#" class="header-page__link">News</a>
+            </li>
+            <li class="header-page__list">
+              <a href="#" class="header-page__link">Features</a>
+            </li>
+            <li class="header-page__list">
+              <a href="#" class="header-page__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-page">
+      <section class="intro">
+        <div class="container">
+          <picture class="intro__main-img">
+            <source
+              srcset="./dist/img/intro-img-lg.png"
+              media="(min-width: 900px)"
+              type="image/png"
+              width="1170"
+            />
+
+            <source
+              srcset="./dist/img/intro-img-md.png"
+              media="(min-width: 350px)"
+              type="image/png"
+              width="768"
+            />
+
+            <img src="./dist/img/intro-img-sm.png" alt="intro-img" width="320" height="150" />
+          </picture>
+        </div>
+      </section>
+
+      <section class="posts">
+        <div class="container">
+          <h3 class="posts__title">- our Recent posts</h3>
+          <ul class="posts__list">
+            <li class="posts__list--item">
+              <a class="post__list--link" href="#">
+                <img
+                  class="posts__list--img"
+                  src="./dist/img/post-img-1.jpg"
+                  alt="post img"
+                  width="160"
+                  height="140"
+                />
+                <div class="post__list--info">
+                  <h4 class="posts__list--title">Aenean Adipiscing Etiam Vestibulum</h4>
+                  <p class="post__list--subtitle">Photography, Journal / 9 Comments</p>
+                  <p class="post__list--description">
+                    Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque ornare sem
+                    lacinia quam venenatis vestibulum.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="posts__list--item">
+              <a class="post__list--link" href="#">
+                <img
+                  class="posts__list--img"
+                  src="./dist/img/post-img-2.jpg"
+                  alt="post img"
+                  width="160"
+                  height="140"
+                />
+                <div class="post__list--info">
+                  <h4 class="posts__list--title">Aenean Adipiscing Etiam Vestibulum</h4>
+                  <p class="post__list--subtitle">Photography, Journal / 9 Comments</p>
+                  <p class="post__list--description">
+                    Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque ornare sem
+                    lacinia quam venenatis vestibulum.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="posts__list--item">
+              <a class="post__list--link" href="#">
+                <img
+                  class="posts__list--img"
+                  src="./dist/img/post-img-3.jpg"
+                  alt="post img"
+                  width="160"
+                  height="140"
+                />
+                <div class="post__list--info">
+                  <h4 class="posts__list--title">Aenean Adipiscing Etiam Vestibulum</h4>
+                  <p class="post__list--subtitle">Photography, Journal / 9 Comments</p>
+                  <p class="post__list--description">
+                    Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque ornare sem
+                    lacinia quam venenatis vestibulum.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="posts__list--item">
+              <a class="post__list--link" href="#">
+                <img
+                  class="posts__list--img"
+                  src="./dist/img/post-img-4.jpg"
+                  alt="post img"
+                  width="160"
+                  height="140"
+                />
+                <div class="post__list--info">
+                  <h4 class="posts__list--title">Aenean Adipiscing Etiam Vestibulum</h4>
+                  <p class="post__list--subtitle">Photography, Journal / 9 Comments</p>
+                  <p class="post__list--description">
+                    Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque ornare sem
+                    lacinia quam venenatis vestibulum.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="instagram">
+        <div class="container">
+          <div class="instagram__titles">
+            <h3 class="instagram__title">- Last Instagram Shot</h3>
+            <h3 class="instagram__title instagram__title--plural">- Latest Instagram Shots</h3>
+
+            <a href="#" class="instagram__titeles--link">go to our instagram page -</a>
+          </div>
+          <div class="instagram__pictures">
+            <img
+              src="./dist/img/instagram-1.jpg"
+              alt="bicycle"
+              class="instagram__img"
+              width="301"
+              height="301"
+            />
+
+            <img
+              src="./dist/img/instagram-2.jpg"
+              alt="instagram-foto"
+              class="instagram__img"
+              width="250"
+              height="250"
+            />
+
+            <img
+              src="./dist/img/instagram-3.jpg"
+              alt="instagram-foto"
+              class="instagram__img"
+              width="250"
+              height="250"
+            />
+
+            <img
+              src="./dist/img/instagram-4.jpg"
+              alt="instagram-foto"
+              class="instagram__img"
+              width="250"
+              height="250"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-page">
+      <div class="container footer-page__container">
+        <h3 class="footer-page__title">- get in touch with us -</h3>
+        <p class="footer-page__description">
+          Maecenas faucibus molli interdum. Cras mattis consectetur purus sitor amet sed donec
+          malesuada ullamcorper odio.
+        </p>
+
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a href="https://rss.com/" class="social-list__link" target="_blank">
+              <img
+                class="social-list__img"
+                src="./dist/img/rss.png"
+                alt="social"
+                width="34"
+                height="43"
+              />
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://www.facebook.com/" class="social-list__link" target="_blank">
+              <img
+                class="social-list__img"
+                src="./dist/img/Facebook.png"
+                alt="social"
+                width="34"
+                height="43"
+            /></a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://twitter.com/" class="social-list__link" target="_blank">
+              <img
+                class="social-list__img"
+                src="./dist/img/Twitter.png"
+                alt="social"
+                width="34"
+                height="43"
+            /></a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://dribbble.com/" class="social-list__link" target="_blank">
+              <img
+                class="social-list__img"
+                src="./dist/img/Dribbble.png"
+                alt="social"
+                width="34"
+                height="43"
+            /></a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://www.pinterest.com/" class="social-list__link" target="_blank">
+              <img
+                class="social-list__img"
+                src="./dist/img/pinterest.png"
+                alt="social"
+                width="34"
+                height="43"
+            /></a>
+          </li>
+        </ul>
+
+        <ul class="contacts">
+          <li class="contacts__item">
+            <a href="https://goo.gl/maps/cAyXzEfU6ZLuxc1aA" class="contacts__link" target="_blank"
+              >Moonshine St. 14-05 Light City /</a
+            >
+          </li>
+          <li class="contacts__item">
+            <a href="tel:+00123456890" class="contacts__link">T. +00 (123) 456 78 90 / </a>
+          </li>
+          <li class="contacts__item">
+            <a href="mailto:first.last@email.com" class="contacts__link">first.last@email.com</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./dist/js/main.min.js"></script>
+  </body>
+</html>
